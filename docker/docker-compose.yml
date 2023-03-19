@@ -1,0 +1,14 @@
+version: '3'
+services:
+    mysql:
+        container_name: mysql
+        image: mysql:5.7
+        volumes:
+            - ./data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: mysqlPWD1.
+            MYSQL_USER: user
+            MYSQL_DATABASE: clientes
+            MYSQL_PASSWORD: mysqlPWD1.
+        ports:
+            - "3306:3306"
