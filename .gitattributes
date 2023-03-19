@@ -1,2 +1,2 @@
-special-vendored-path/* linguist-vendored
-visual basic 6.0 linguist-vendored=false
+*.java linguist-language=Java
+*.sql linguist-language=MySql
