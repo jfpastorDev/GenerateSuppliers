@@ -3,9 +3,13 @@
 Proyecto que genera un archivo en formato txt o csv con los proveedores de un cliente dado a partir de los datos almacenados en una base de datos MySQL.
 Para ello se ha creado un proyecto java al cual se le pasa el código del cliente y opcionalmente el tipo de fichero a generar, y al ejecutarlo se creará un directorio 'exportedFiles' donde se guardarán los fichero con formato: <yyyyMMdd_HHmmss>_proveedores_<codio cliente>.<txt/csv> 
 
-### Librerías utilizadas
+### Herramientas y librerías utilizadas
   
-**Versión de java 11**
+- **Java 11.0.17**
+- **Spring Boot 2.7.9** 
+- **Spring y spring data 5.3.25** para facilitar el manejo de la injección de dependencias y el acceso a la base de datos
+- **Lombok 1.18.26** para facilitar la generación de código (getters, setters, contructores, ...)
+- **JUnit 5.8.1 y mockito 4.5.1** para las pruebas unitarias y de integración
 
 ## Instalación
 
